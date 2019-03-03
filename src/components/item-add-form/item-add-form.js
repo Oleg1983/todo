@@ -8,7 +8,6 @@ export default class ItemAddForm extends Component {
   };
 
   onLabelChange = (e) => {
-    // console.log(e);
     this.setState({
       label: e.target.value
     });
